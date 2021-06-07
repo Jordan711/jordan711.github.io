@@ -19,6 +19,11 @@
           $('#education-toggle > span').toggleClass('rotate-180');
       });
 
+      $('#school-projects-toggle').click(function(){
+          $('#school-projects').slideToggle();
+          $('#school-projects-toggle > span').toggleClass('rotate-180');
+      });
+
       $('#side-projects-toggle').click(function(){
           $('#side-projects').slideToggle();
           $('#side-projects-toggle > span').toggleClass('rotate-180');
