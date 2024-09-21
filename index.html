@@ -1,330 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="utf-8"/>
-      <meta http-equiv="x-ua-compatible" content="ie=edge" />
-      <title>Jordan Feng's Personal Website</title>
-      <meta name="description" content="Jordan Feng's Personal Website. Welcome! I provide a brief summary of my work during my years in university while studying Computer Science." />
-      <meta name="author" content="Jordan Feng" />
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link href="style/index.css" rel="stylesheet" type="text/css"/>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-      <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-      <link rel="icon" href="./media/profile.png">
-  </head>
-  <body>
-      <header>
-          <div class="container">
-            <img class="center-block" id="profile-picture" src="./media/profile.png">
-            <p id="name">Jordan Feng</p>
-            <p class="title">Welcome to my website!</p>
-          </div>
-      </header>
 
-      <div id="main">
-        <div>
-          <button id="about-toggle" class="btn btn-primary btn-lg center-block">
-            <span class="glyphicon glyphicon-chevron-down"></span>
-            About Me
-          </button>
-        </div>
-        <div id="about" class="section container">
-          <p class="title">About Me</p>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Jordan Feng's Personal Website</title>
+  <meta name="description"
+    content="Jordan Feng's Personal Website. Welcome! I provide a brief summary of my work during my years in university while studying Computer Science." />
+  <meta name="author" content="Jordan Feng" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style/index.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="icon" href="./media/profile.png">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <img class="center-block" id="profile-picture" src="./media/profile.png">
+      <p id="name">Jordan Feng</p>
+    </div>
+  </header>
+
+  <div id="main">
+    <div>
+      <button id="about-toggle" class="btn btn-primary btn-lg center-block">
+        <span class="glyphicon glyphicon-chevron-down"></span>
+        About Me
+      </button>
+    </div>
+    <div id="about" class="section container">
+      <div class="other-section">
+        <p>Hi! I am a QA Engineer with almost 3 years of experience with test automation frameworks like Protractor and
+          Cypress.
+          When I was a child, I flipped through a book on building robots, beginning my fascination to tech, leading to
+          a desire to later pursue a career in software.
+          During my high school years, I experimented with different tools and projects, some of which is documented on
+          my YouTube channel, like
+          exploring different operating systems, and looking at malware in an isolated virtual machine environment.
+          Thanks so much for stopping by! If you would like to contact me or see more of my work, please feel free to
+          click the icons at the bottom of this page!
+        </p>
+        <p>Below is a quick summary of the different skills I have picked up during my tech journey. </p>
+      </div>
+      <br />
+
+      <div class="row">
+        <div class="col-md-4">
           <div class="other-section">
-            <p>Hi! I am a recent graduate who studied Computer Science at the University of Toronto Scarborough. At a young age, I had developed an interest in tech (some of it can be seen in my YouTube channel linked below) and wanted to pursue a career related to software. This website is a portfolio of what I have achieved so far in my journey. If you would like to contact me or see more of my work, please feel free to click the icons at the bottom for my GitHub or LinkedIn.
-            </p>
-            <p>Below is a quick summary of the different skills I have picked up during my studies and co-op work terms. </p>
-          </div>
-          <br />
-          <p class="title">Web Development</p>
-          <div class="center-tags">
-            <p class="skill-tag">HTML</p>
-            <p class="skill-tag">CSS (Cascading Style Sheets)</p>
-            <p class="skill-tag">JavaScript</p>
-            <p class="skill-tag">Bootstrap</p>
-            <p class="skill-tag">jQuery</p>
-            <p class="skill-tag">Ruby on Rails</p>
-            <p class="skill-tag">Express.js</p>
-            <p class="skill-tag">Node.js</p>
-          </div>
-
-          <p class="title">Database Systems</p>
-          <div class="center-tags">
-            <p class="skill-tag">SQL</p>
-            <p class="skill-tag">PostgreSQL</p>
-            <p class="skill-tag">MongoDB</p>
-            <p class="skill-tag">NeDB</p>
-          </div>
-
-          <p class="title">Languages</p>
-          <div class="center-tags">
-            <p class="skill-tag">Python</p>
-            <p class="skill-tag">C</p>
-            <p class="skill-tag">C#</p>
-            <p class="skill-tag">C++</p>
-            <p class="skill-tag">LaTeX</p>
-            <p class="skill-tag">Java</p>
-            <p class="skill-tag">R</p>
-            <p class="skill-tag">Ruby</p>
-          </div>
-
-          <p class="title">Version Control</p>
-          <div class="center-tags">
-            <p class="skill-tag">Git</p>
-            <p class="skill-tag">SVN</p>
-          </div>
-
-          <p class="title">Other Frameworks/Tools</p>
-          <div class="center-tags">
-            <p class="skill-tag">Wireshark</p>
-            <p class="skill-tag">Protractor</p>
-            <p class="skill-tag">Selenium</p>
+            <p class="title">Test Development</p>
+            <div class="center-tags">
+              <p class="skill-tag">Cypress</p>
+              <p class="skill-tag">Protractor</p>
+              <p class="skill-tag">Selenium</p>
+            </div>
           </div>
         </div>
 
-        <div>
-          <button id="education-toggle" class="btn btn-primary btn-lg center-block">
-            <span class="glyphicon glyphicon-chevron-down"></span>
-            Education
-          </button>
-        </div>
-        <div id="education" class="section container">
-          <p class="title">University of Toronto Scarborough</p>
-          <div class="other-section center-text">
-            <p class="other-section-title">Honours Bachelor of Science (HBSc.)</p>
-            <p>Computer Science Co-op Specialist, Software Engineering</p>
-            <p>Statistics Minor</p>
-          </div>
-
-          <p class="title">Relevant Courses</p>
-          <button id="b-toggle" class="btn btn-info btn-lg center-block">
-            <span class="glyphicon glyphicon-chevron-down"></span>
-            B Level Courses
-          </button>
-          <div class="center-tags">
-            <p class="skill-tag">CSCB09</p>
-            <p class="skill-tag">CSCB63</p>
-          </div>
-          <div id="b-courses" class="sub-section">
-            <p class="other-section-title">CSCB09 - Software Tools and Systems Programming</p>
-            <ul>
-              <li>Learned C Programming and Shell Scripting</li>
-              <li>Topics include: pipes and filters, file processing, shell programming, processes, system calls, signals, and basic network programming </li>
-            </ul>
-
-            <p class="other-section-title">CSCB63 - Design and Analysis of Data Structures</p>
-            <ul>
-              <li>Learned Different Data Structures and its Algorithms </li>
-              <li>Topics include: Worst Case Complexity, Priority Queues, Heaps, Balanced Search Trees, B-trees, Hashing, and Graph Algorithms</li>
-            </ul>
-          </div>
-
-          <button id="c-toggle" class="btn btn-info btn-lg center-block">
-            <span class="glyphicon glyphicon-chevron-down"></span>
-            C Level Courses
-          </button>
-          <div class="center-tags">
-            <p class="skill-tag">CSC373</p>
-            <p class="skill-tag">CSCC01</p>
-            <p class="skill-tag">CSCC09</p>
-            <p class="skill-tag">CSCC43</p>
-            <p class="skill-tag">CSCC69</p>
-            <p class="skill-tag">STAC33</p>
-            <p class="skill-tag">STAC67</p>
-          </div>
-          <div id="c-courses" class="sub-section">
-            <p class="other-section-title">CSC373 - Algorithm Design, Analysis & Complexity</p>
-            <ul>
-              <li>Learned Algorithm Design Techniques and Computational Complexity</li>
-              <li>Topics include: divide and conquer, greedy algorithms, dynamic programming, network flow, linear programming, approximation, membership in P and NP, and NP-completeness </li>
-            </ul>
-
-            <p class="other-section-title">CSCC01 - Introduction to Software Engineering</p>
-            <ul>
-              <li>Learned software development methodologies with an emphasis on agile development methods </li>
-              <li>Topics include: basic software development infrastructure, requirements gathering and tracking, prototyping, basic project management, basic UML, introduction to software architecture, design patterns, and testing</li>
-              <li>Worked in teams to create a search engine and a  <a href="https://youtu.be/YEaeQ2rqXGc" target="_blank">Demo Video</a> where users can upload and search for files</li>
-            </ul>
-
-            <p class="other-section-title">CSCC09 - Programming on the Web</p>
-            <ul>
-              <li>Learned Concepts Related to Full-Stack Web Development </li>
-              <li>Topics include: static and dynamic client content, dynamically served content, n-tiered architectures, and web development processes and security on the web</li>
-            </ul>
-
-            <p class="other-section-title">CSCC43 - Introduction to Databases</p>
-            <ul>
-              <li>Learned Concepts Related to Database Management Systems </li>
-              <li>Topics include: relational data model, relational algebra, SQL, querying and updating databases, integrity constraints, normal forms, and database design</li>
-            </ul>
-
-            <p class="other-section-title">CSCC69 - Operating Systems</p>
-            <ul>
-              <li>Learned Concepts Related to Operating Systems </li>
-              <li>Topics include: concept of a process, concurrency problems like synchronization, mutual exclusion, and deadlock, memory management, file systems, process scheduling, threads, and protection</li>
-            </ul>
-
-            <p class="other-section-title">STAC33 - Introduction to Applied Statistics</p>
-            <ul>
-              <li>Learned R to analyze data</li>
-              <li>Wrote statistical reports</li>
-              <li>Used R to generate graphs and do statistical inferences</li>
-            </ul>
-
-            <p class="other-section-title">STAC67 - Regression Analysis</p>
-            <ul>
-              <li>Learned Concepts Related to the Theory and Methodology of Regression</li>
-              <li>Topics Include: least squares estimation, residual analysis, inference of regression
-parameters under assumptions of normality of errors, remedial procedures for violation of
-assumptions, model selection procedures, and collinearity models for categorical data</li>
-            </ul>
-          </div>
-
-          <button id="d-toggle" class="btn btn-info btn-lg center-block">
-            <span class="glyphicon glyphicon-chevron-down"></span>
-            D Level Courses
-          </button>
-          <div class="center-tags">
-            <p class="skill-tag">CSCD01</p>
-            <p class="skill-tag">CSCD27</p>
-          </div>
-          <div id="d-courses" class="sub-section">
-            <p class="other-section-title">CSCD01 - Engineering Large Software Systems</p>
-            <ul>
-              <li>Learned the practices of large-scale software system design, development, and deployment</li>
-              <li>Topics include: Project management, advanced UML, requirements engineering, verification and validation, software architecture, and performance modeling and analysis </li>
-              <li>Contributed to an open-source project (matplotlib) in a team</li>
-            </ul>
-
-            <p class="other-section-title">CSCD27 - Computer and Network Security</p>
-            <ul>
-              <li>Learned Different Topics Related to Cybersecurity </li>
-              <li>Topics include: Public and symmetric key algorithms and their application, key management and certification, authentication protocols, digital signatures and data integrity, secure network and application protocols, application/system/network attacks and defences, intrusion detection and prevention, social engineering attacks, and risk assessment and management</li>
-            </ul>
-          </div>
-        </div>
-
-        <div>
-          <button id="work-experience-toggle" class="btn btn-primary btn-lg center-block">
-            <span class="glyphicon glyphicon-chevron-down"></span>
-            Work Experience
-          </button>
-        </div>
-        <div id="work-experience" class="section container">
-          <p class="title">My Work Experience</p>
-          <div class="center-tags">
-            <p class="skill-tag">Test Developer</p>
-            <p class="skill-tag">Full Stack Developer</p>
-          </div>
-
+        <div class="col-md-4">
           <div class="other-section">
-            <p class="other-section-title">Test Developer - CaseWare International Inc.</p>
-            <ul>
-              <li>Tested newly developed features to ensure defects are found and fixed before deployment</li>
-              <li>Wrote automation scripts using the Protractor framework and Jenkins to automate testing </li>
-              <li>Collaborated with other developers and testers to discuss/present new features</li>
-            </ul>
-
-            <p class="other-section-title">Full Stack Developer - Verto Inc.</p>
-            <ul>
-              <li>Developed new features in the front-end using libraries like Bootstrap and jQuery</li>
-              <li>Developed new features in the back-end with Ruby on Rails and PostgreSQL</li>
-              <li>Assisted in the design of new features and interfaces</li>
-            </ul>
+            <p class="title">DevOps</p>
+            <div class="center-tags">
+              <p class="skill-tag">Docker</p>
+              <p class="skill-tag">Git</p>
+              <p class="skill-tag">SVN</p>
+              <p class="skill-tag">GitHub Actions</p>
+              <p class="skill-tag">Sentry</p>
+            </div>
           </div>
         </div>
 
-        <div>
-          <button id="school-projects-toggle" class="btn btn-primary btn-lg center-block">
-            <span class="glyphicon glyphicon-chevron-down"></span>
-            School Projects
-          </button>
-        </div>
-        <div id="school-projects" class="section container">
-          <p class="title">School Projects</p>
-          <div class="center-tags">
-            <p class="skill-tag">UTSearCh I</p>
-            <p class="skill-tag">UTSearCh II</p>
-          </div>
-
+        <div class="col-md-4">
           <div class="other-section">
-            <p class="other-section-title">UTSearCh I (2018)</p>
-            <p><a href="https://youtu.be/YEaeQ2rqXGc" target="_blank">Demo Video</a></p>
-            <ul>
-              <li>A search engine created to allow students to share and search for various course materials</li>
-              <li>Used jQuery for various animations in the application</li>
-              <li>Learned Spring MVC to put the project and its components together</li>
-              <li>Used the jsoup library to parse uploaded html files and display its contents in the preview</li>
-            </ul>
-
-            <p class="other-section-title">UTSearCh II (2021)</p>
-            <p><a href="https://utsearch.tech" target="_blank">Try out our app!</a></p>
-            <ul>
-              <li>A search engine designed for students to meet one another face to face during the pandemic</li>
-              <li>Learned Socket.IO and PeerJS to develop the video and voice call features</li>
-              <li>Learned the React framework to integrate functional frontend components for the video/voice call features</li>
-            </ul>
-          </div>
-        </div>
-
-        <div>
-          <button id="side-projects-toggle" class="btn btn-primary btn-lg  center-block">
-            <span class="glyphicon glyphicon-chevron-down"></span>
-            My Side Projects
-          </button>
-        </div>
-        <div id="side-projects" class="section container">
-          <p class="title">My Side Projects (+ Backstories!)</p>
-          <div class="center-tags">
-            <p class="skill-tag">About Me Web Application</p>
-            <p class="skill-tag">Jump and Collect Game</p>
-            <p class="skill-tag">This Website!</p>
-          </div>
-
-          <div class="other-section">
-            <p class="title"><a href="https://github.com/Jordan711/about-me" target="_blank">About Me Web Application (2019)</a></p>
-            <p>During my co-op work term at CaseWare International Inc., after work, I wanted to learn some new web development frameworks. Since I have some full-stack web development experience from my previous work term, I decided to take some time to learn something that I am not familiar with, and that is Express.js on Node.js. Through some books and online tutorials, this is the result of my self-study throughout my co-op work term. I treated this project as a "sandbox", where I am free to experiment with new features and libraries to see what I can do with them and how to better use them.
-            </p>
-            <p>One notable "sub-feature" is the games that I have added. Prior to this, I have not done any formal game programming and, I decided to try to make some simple HTML5 games as sample content to put in this web application.
-            </p>
-            <p>This project was a review of HTML, CSS, JavaScript, jQuery, and Bootstrap but it also gave me the opportunity to explore Node.js, Express.js and Handlebars, as well as fully building a functional web application by myself for the first time. This allowed me to better understand what is happening behind the scenes, when users are accessing pages on the application, and making different requests to the server. Looking back, I am pretty happy to have worked on this project and I plan to continue using it to test out new techniques, libraries, or frameworks in the future.
-            </p>
-          </div>
-
-          <div class="other-section">
-            <p class="title"><a href="https://github.com/Jordan711/jump-and-collect-game" target="_blank">Jump and Collect Game (2020)</a></p>
-            <p>This project was actually inspired by an unfortunate event, the Adobe Flash Player's End of Life. Hearing that the flash player will no longer be supported saddened me, as online flash games played a large part of my childhood. As a child, I always wondered how game developers created the very games that I loved and enjoyed. Sadly, I have missed that opportunity. Despite this, there are also other methods of creating online games.
-            </p>
-            <p>HTML5 games are getting popular and while I am not too familiar with them, I wanted to explore this new territory and create a game of my own. When I searched up "How to make html5 game", one library that was mentioned quite a bit is the Phaser library. This led to me searching up its documentation and other tutorials in order to create my very first game with Phaser. The final result is the Jump and Collect Game (yes, very original name). The game consists of a block character collecting block coins, and to win, the block character must collect all the coins in the stage. It is a very simple game at this point, but I hope to add more features when I have time.
-            </p>
-            <p> It ain't much, but it's honest work.
-            </p>
-          </div>
-
-          <div class="other-section">
-            <p class="title"><a href="https://github.com/Jordan711/jordan711.github.io" target="_blank">This Website! (2021)</a></p>
-            <p>I am in my final semester of university. So many different experiences ... so many different things learned. What's the best way for me to showcase my entire journey through university (other than just a resume)? How about a personal website too!
-            </p>
-            <p>Coincidentally, I am also taking a class on web development this semester so I thought it would be a great time to apply what I have learned (or re-learned ... it's been a while hehe) into creating my very own personal website. This project has also taught me a little bit about how domain names and hosting websites work. Prior to this, I would not have known how to put my website on the internet for everyone to see (About Me Web Application was unfortunately left out because of this).
-            </p>
-            <p> I do hope to continue updating this website as I pick up more skills or create more interesting side projects so I can keep you up to date!
-            </p>
+            <p class="title">Security Testing</p>
+            <div class="center-tags">
+              <p class="skill-tag">Burpsuite</p>
+              <p class="skill-tag">Wireshark</p>
+            </div>
           </div>
 
         </div>
       </div>
 
-      <footer>
-          <div class="container-fluid">
-            <a class="contact-links" target="_blank" href="https://www.github.com/jordan711"><i class="lab la-github"></i></a>
-            <a class="contact-links" target="_blank" href="https://ca.linkedin.com/in/jordan-feng"><i class="lab la-linkedin"></i></a>
-            <a class="contact-links" target="_blank" href="https://www.youtube.com/user/TheTechChannel2000"><i class="lab la-youtube"></i></a>
-            <a class="contact-links" target="_blank" href="https://www.hackerrank.com/jordan_feng"><i class="lab la-hackerrank"></i></a>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="other-section">
+            <p class="title">Web Development</p>
+            <div class="center-tags">
+              <p class="skill-tag">HTML</p>
+              <p class="skill-tag">CSS</p>
+              <p class="skill-tag">JavaScript</p>
+              <p class="skill-tag">Bootstrap</p>
+              <p class="skill-tag">jQuery</p>
+              <p class="skill-tag">Ruby on Rails</p>
+              <p class="skill-tag">Express.js</p>
+              <p class="skill-tag">Node.js</p>
+            </div>
           </div>
-      </footer>
+        </div>
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-      <script src="./js/index.js"></script>
-  </body>
+        <div class="col-md-4">
+          <div class="other-section">
+            <p class="title">Database Systems</p>
+            <div class="center-tags">
+              <p class="skill-tag">SQL</p>
+              <p class="skill-tag">PostgreSQL</p>
+              <p class="skill-tag">MongoDB</p>
+              <p class="skill-tag">NeDB</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="other-section">
+            <p class="title">Languages</p>
+            <div class="center-tags">
+              <p class="skill-tag">Python</p>
+              <p class="skill-tag">C</p>
+              <p class="skill-tag">C#</p>
+              <p class="skill-tag">C++</p>
+              <p class="skill-tag">LaTeX</p>
+              <p class="skill-tag">Java</p>
+              <p class="skill-tag">R</p>
+              <p class="skill-tag">Ruby</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="other-section">
+            <p class="title">Skills In Development</p>
+            <div class="center-tags">
+              <p class="learning-tag">Kubernetes</p>
+              <p class="learning-tag">Jenkins</p>
+              <p class="learning-tag">Google Cloud</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <button id="education-toggle" class="btn btn-primary btn-lg center-block">
+        <span class="glyphicon glyphicon-chevron-down"></span>
+        Education
+      </button>
+    </div>
+    <div id="education" class="section container">
+      <p class="title">University of Toronto Scarborough</p>
+      <div class="other-section center-text">
+        <p class="other-section-title">Honours Bachelor of Science (HBSc.)</p>
+        <p>Computer Science Co-op Specialist, Software Engineering</p>
+        <p>Statistics Minor</p>
+      </div>
+
+      <p class="title">Relevant Courses</p>
+      <button id="b-toggle" class="btn btn-info btn-lg center-block">
+        <span class="glyphicon glyphicon-chevron-down"></span>
+        B Level Courses
+      </button>
+      <div class="center-tags">
+        <p class="skill-tag">CSCB09</p>
+        <p class="skill-tag">CSCB63</p>
+      </div>
+      <div id="b-courses" class="sub-section">
+        <p class="other-section-title">CSCB09 - Software Tools and Systems Programming</p>
+        <ul>
+          <li>Learned C Programming and Shell Scripting</li>
+          <li>Topics include: pipes and filters, file processing, shell programming, processes, system calls, signals,
+            and basic network programming </li>
+        </ul>
+
+        <p class="other-section-title">CSCB63 - Design and Analysis of Data Structures</p>
+        <ul>
+          <li>Learned Different Data Structures and its Algorithms </li>
+          <li>Topics include: Worst Case Complexity, Priority Queues, Heaps, Balanced Search Trees, B-trees, Hashing,
+            and Graph Algorithms</li>
+        </ul>
+      </div>
+
+      <button id="c-toggle" class="btn btn-info btn-lg center-block">
+        <span class="glyphicon glyphicon-chevron-down"></span>
+        C Level Courses
+      </button>
+      <div class="center-tags">
+        <p class="skill-tag">CSC373</p>
+        <p class="skill-tag">CSCC01</p>
+        <p class="skill-tag">CSCC09</p>
+        <p class="skill-tag">CSCC43</p>
+        <p class="skill-tag">CSCC69</p>
+        <p class="skill-tag">STAC33</p>
+        <p class="skill-tag">STAC67</p>
+      </div>
+      <div id="c-courses" class="sub-section">
+        <p class="other-section-title">CSC373 - Algorithm Design, Analysis & Complexity</p>
+        <ul>
+          <li>Learned Algorithm Design Techniques and Computational Complexity</li>
+          <li>Topics include: divide and conquer, greedy algorithms, dynamic programming, network flow, linear
+            programming, approximation, membership in P and NP, and NP-completeness </li>
+        </ul>
+
+        <p class="other-section-title">CSCC01 - Introduction to Software Engineering</p>
+        <ul>
+          <li>Learned software development methodologies with an emphasis on agile development methods </li>
+          <li>Topics include: basic software development infrastructure, requirements gathering and tracking,
+            prototyping, basic project management, basic UML, introduction to software architecture, design patterns,
+            and testing</li>
+          <li>Worked in teams to create a search engine and a <a href="https://youtu.be/YEaeQ2rqXGc"
+              target="_blank">Demo Video</a> where users can upload and search for files</li>
+        </ul>
+
+        <p class="other-section-title">CSCC09 - Programming on the Web</p>
+        <ul>
+          <li>Learned Concepts Related to Full-Stack Web Development </li>
+          <li>Topics include: static and dynamic client content, dynamically served content, n-tiered architectures, and
+            web development processes and security on the web</li>
+        </ul>
+
+        <p class="other-section-title">CSCC43 - Introduction to Databases</p>
+        <ul>
+          <li>Learned Concepts Related to Database Management Systems </li>
+          <li>Topics include: relational data model, relational algebra, SQL, querying and updating databases, integrity
+            constraints, normal forms, and database design</li>
+        </ul>
+
+        <p class="other-section-title">CSCC69 - Operating Systems</p>
+        <ul>
+          <li>Learned Concepts Related to Operating Systems </li>
+          <li>Topics include: concept of a process, concurrency problems like synchronization, mutual exclusion, and
+            deadlock, memory management, file systems, process scheduling, threads, and protection</li>
+        </ul>
+
+        <p class="other-section-title">STAC33 - Introduction to Applied Statistics</p>
+        <ul>
+          <li>Learned R to analyze data</li>
+          <li>Wrote statistical reports</li>
+          <li>Used R to generate graphs and do statistical inferences</li>
+        </ul>
+
+        <p class="other-section-title">STAC67 - Regression Analysis</p>
+        <ul>
+          <li>Learned Concepts Related to the Theory and Methodology of Regression</li>
+          <li>Topics Include: least squares estimation, residual analysis, inference of regression
+            parameters under assumptions of normality of errors, remedial procedures for violation of
+            assumptions, model selection procedures, and collinearity models for categorical data</li>
+        </ul>
+      </div>
+
+      <button id="d-toggle" class="btn btn-info btn-lg center-block">
+        <span class="glyphicon glyphicon-chevron-down"></span>
+        D Level Courses
+      </button>
+      <div class="center-tags">
+        <p class="skill-tag">CSCD01</p>
+        <p class="skill-tag">CSCD27</p>
+      </div>
+      <div id="d-courses" class="sub-section">
+        <p class="other-section-title">CSCD01 - Engineering Large Software Systems</p>
+        <ul>
+          <li>Learned the practices of large-scale software system design, development, and deployment</li>
+          <li>Topics include: Project management, advanced UML, requirements engineering, verification and validation,
+            software architecture, and performance modeling and analysis </li>
+          <li>Contributed to an open-source project (matplotlib) in a team</li>
+        </ul>
+
+        <p class="other-section-title">CSCD27 - Computer and Network Security</p>
+        <ul>
+          <li>Learned Different Topics Related to Cybersecurity </li>
+          <li>Topics include: Public and symmetric key algorithms and their application, key management and
+            certification, authentication protocols, digital signatures and data integrity, secure network and
+            application protocols, application/system/network attacks and defences, intrusion detection and prevention,
+            social engineering attacks, and risk assessment and management</li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <button id="work-experience-toggle" class="btn btn-primary btn-lg center-block">
+        <span class="glyphicon glyphicon-chevron-down"></span>
+        Work Experience
+      </button>
+    </div>
+    <div id="work-experience" class="section container">
+      <p class="title">My Work Experience</p>
+      <div class="center-tags">
+        <p class="skill-tag">QA Automation Developer</p>
+        <p class="skill-tag">Full Stack Developer</p>
+      </div>
+
+      <div class="other-section">
+        <p class="other-section-title">QA Automation Developer - Verto Inc.</p>
+        <ul>
+          <li>Automated e2e tests using the Cypress testing framework</li>
+          <li>Implemented GitHub Actions CI to run controlled tests automatically, on a schedule, and within
+            pull requests</li>
+          <li>Assisted with Burp Suite security scanning by integrating Cypress tests to intercept network
+            traffic from main use cases</li>
+        </ul>
+
+        <p class="other-section-title">Test Developer - CaseWare International Inc.</p>
+        <ul>
+          <li>Tested newly developed features to ensure defects are found and fixed before deployment</li>
+          <li>Wrote automation scripts using the Protractor framework and Jenkins to automate testing </li>
+          <li>Collaborated with other developers and testers to discuss/present new features</li>
+        </ul>
+
+        <p class="other-section-title">Full Stack Developer - Verto Inc.</p>
+        <ul>
+          <li>Developed new features in the front-end using libraries like Bootstrap and jQuery</li>
+          <li>Developed new features in the back-end with Ruby on Rails and PostgreSQL</li>
+          <li>Assisted in the design of new features and interfaces</li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <button id="school-projects-toggle" class="btn btn-primary btn-lg center-block">
+        <span class="glyphicon glyphicon-chevron-down"></span>
+        School Projects
+      </button>
+    </div>
+    <div id="school-projects" class="section container">
+      <p class="title">School Projects</p>
+      <div class="center-tags">
+        <p class="skill-tag">UTSearCh I</p>
+        <p class="skill-tag">UTSearCh II</p>
+      </div>
+
+      <div class="other-section">
+        <p class="other-section-title">UTSearCh I (2018)</p>
+        <p><a href="https://youtu.be/YEaeQ2rqXGc" target="_blank">Demo Video</a></p>
+        <ul>
+          <li>A search engine created to allow students to share and search for various course materials</li>
+          <li>Used jQuery for various animations in the application</li>
+          <li>Learned Spring MVC to put the project and its components together</li>
+          <li>Used the jsoup library to parse uploaded html files and display its contents in the preview</li>
+        </ul>
+
+        <p class="other-section-title">UTSearCh II (2021)</p>
+        <ul>
+          <li>A search engine designed for students to meet one another face to face during the pandemic</li>
+          <li>Learned Socket.IO and PeerJS to develop the video and voice call features</li>
+          <li>Learned the React framework to integrate functional frontend components for the video/voice call features
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container-fluid">
+      <a class="contact-links" target="_blank" href="https://www.github.com/jordan711"><i class="lab la-github"></i></a>
+      <a class="contact-links" target="_blank" href="https://ca.linkedin.com/in/jordan-feng"><i
+          class="lab la-linkedin"></i></a>
+      <a class="contact-links" target="_blank" href="https://www.youtube.com/user/TheTechChannel2000"><i
+          class="lab la-youtube"></i></a>
+      <a class="contact-links" target="_blank" href="https://www.hackerrank.com/jordan_feng"><i
+          class="lab la-hackerrank"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
 </html>
